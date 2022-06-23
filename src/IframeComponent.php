@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\MyTile;
+namespace JoeriAbbo\Iframe;
 
 use Livewire\Component;
 
-class MyTileComponent extends Component
+class IframeComponent extends Component
 {
     public $position;
 
@@ -13,14 +13,14 @@ class MyTileComponent extends Component
     {
         $this->position = $position;
     }
-    
-    
-    public function render()
-    {
-        return view('dashboard-skeleton-tile::tile', [
-            'myData' => MyStore::make()->getData(),
-            'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
 
+    /**
+     * @return View
+     */
+    public function render(): view
+    {
+        return view(IframeServiceProvider::PACKAGE_NAME . '::tile', [
+            'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
         ]);
     }
 }
