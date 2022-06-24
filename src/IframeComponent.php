@@ -7,8 +7,14 @@ use Livewire\Component;
 
 class IframeComponent extends Component
 {
+    /**
+     * @var
+     */
     public $position;
-
+    /**
+     * @var
+     */
+    public $url;
 
     public function mount(string $position)
     {
