@@ -2,6 +2,7 @@
 
 namespace JoeriAbbo\Iframe;
 
+use Illuminate\View\View;
 use Livewire\Component;
 
 class IframeComponent extends Component
