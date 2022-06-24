@@ -1,8 +1,8 @@
 # Add a iframe tile to your dashboard
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/joeri-abbo/laravel-dashboard-iframe-tile.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/joeri-abbo/laravel-dashboard-iframe-tile/run-tests?label=tests)](https://github.com/:vendor/:package_name/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/joeri-abbo/laravel-dashboard-iframe-tile.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/joeri-abbo/laravel-dashboard-iframe-tile.svg?style=flat-square)](https://packagist.org/packages/joeri-abbo/laravel-dashboard-iframe-tile)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/joeri-abbo/laravel-dashboard-iframe-tile/run-tests?label=tests)](https://github.com/joeri-abbo/laravel-dashboard-iframe-tile/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/joeri-abbo/laravel-dashboard-iframe-tile.svg?style=flat-square)](https://packagist.org/packages/joeri-abbo/laravel-dashboard-iframe-tile)
 
 Add a iframe to your dashboard to show your custom widget and screens.
 It is as easy as instaliing this package and adding the tile to your dashboard view with the url for the iframe.
