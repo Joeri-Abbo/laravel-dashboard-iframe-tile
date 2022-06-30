@@ -1,7 +1,7 @@
 <x-dashboard-tile :position="$position">
     @if(!empty($url))
         <div class="grid grid-rows-auto-1 gap-2 h-full js-iframe-wrapper">
-            <iframe src="{{$url}}" wire:poll.{{ $refreshIntervalInSeconds }}s></iframe>
+            <iframe src="{{$url}}"></iframe>
         </div>
         <script>
             window.addEventListener('load', (event) => {
