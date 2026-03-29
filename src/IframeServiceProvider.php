@@ -7,7 +7,7 @@ use Livewire\Livewire;
 
 class IframeServiceProvider extends ServiceProvider
 {
-    const PACKAGE_NAME = 'dashboard-iframe-tile';
+    public const PACKAGE_NAME = 'dashboard-iframe-tile';
 
     public function boot()
     {
