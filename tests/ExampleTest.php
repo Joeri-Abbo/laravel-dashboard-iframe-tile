@@ -1,13 +1,14 @@
 <?php
 
-namespace Spatie\MyTile\Tests;
+namespace JoeriAbbo\Iframe\Tests;
 
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    /** @test */
-    public function true_is_true()
+    #[Test]
+    public function true_is_true(): void
     {
         $this->assertTrue(true);
     }
